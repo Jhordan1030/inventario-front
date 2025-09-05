@@ -1,11 +1,6 @@
-import TablaProductos from "./components/TablaProductos";
+import React from "react";
+import ProductosPage from "./components/ProductosPage";
 
-function App() {
-  return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 p-6">
-      <TablaProductos />
-    </div>
-  );
+export default function App() {
+  return <ProductosPage />;
 }
-
-export default App;
